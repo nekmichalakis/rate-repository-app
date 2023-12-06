@@ -1,4 +1,5 @@
 import { View, Text, Image, StyleSheet } from 'react-native'
+import theme from '../theme'
 
 const styles = StyleSheet.create({
     outerContainer: {
@@ -26,7 +27,7 @@ const styles = StyleSheet.create({
     },
     languageText: {
         color: 'white',
-        backgroundColor: '#0366d6',
+        backgroundColor: theme.colors.buttonBlue,
         borderRadius: 3,
         paddingHorizontal: 5,
         paddingTop: 2,
