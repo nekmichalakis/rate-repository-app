@@ -54,6 +54,7 @@ const RepositoryItem = ({ repository }) => {
         if (toConvert >= 1000) {
             return `${Math.round(toConvert/100)/10}k`
         }
+        return toConvert
     }
 
     return (
